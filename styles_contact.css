@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#top-bar {
+    background-color: #C19A6B;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-bar h1 {
+    margin: 0;
+    color: maroon;
+}
+
+#top-bar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#top-bar nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#top-bar nav a {
+    text-decoration: none;
+    color: maroon;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#bottom-bar {
+    background-color: #C19A6B;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bottom-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.left-content {
+    color: maroon;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: maroon;
+}
+
+#contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.rounded-square {
+    background-color: #C19A6B;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    color: maroon;
+    position: relative;
+    flex: 1; 
+    max-width: 400px; 
+    height: 350px; 
+}
+
+.rounded-square img {
+    max-width: 100%;
+    border-radius: 10px;
+    max-height: 150px;
+}
+
+.visit-us-button, .contact-us-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: maroon;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.social-icons-container {
+    max-width: 100%;
+    text-align: center;
+}
+
+.social-icons-container h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: maroon;
+    margin-bottom: 10px;
+}
+
+#contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    #contact-section {
+        flex-direction: column;
+    }
+
+    #bottom-bar {
+        margin-top: 0;
+    }
+}
