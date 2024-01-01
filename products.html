@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="products.css">
+    
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <p>The Lott's Bakery</p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#aboutUs">About us</a></li>
+            </ul>
+        </div>
+        <div class="navbar-b">
+            <div class="dropdown">
+                <select name=" ">
+                    <option value="1">Categories</option>
+                    <option value="2">Cake</option>
+                    <option value="3">Pastry</option>
+                </select>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Search...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p>0</p></div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar">Ordered menu</div>
+    </div>
+    <script src="products.js"></script>
+</body>
+</html>
