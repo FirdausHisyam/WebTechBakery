@@ -157,5 +157,11 @@ header h1 {
 }
 
 .images img{
-    width:120px
+    width:100px;
+    height:100px;
+}
+
+.image{
+    display:flex;
+    padding:5px;
 }
